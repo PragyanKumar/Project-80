@@ -40,3 +40,15 @@ document.getElementById("display_name").innerHTML=no_comma_array
 function update(){
     document.getElementById("display_name").innerHTML="<h1>"+Party_friend_array+"</h1>"
 }
+function searching(){
+    var s=document.getElementById("s1").value
+    var found=0
+    var j
+    for (j=0;j<Party_friend_array.length;j++){
+        if (s==Party_friend_array[j]){
+            found=found+1;
+        }
+    }
+}
+document.getElementById("p2").innerHTML="name found" +found+ "time/s"
+console.log("found name" +found+ "time/s") 
