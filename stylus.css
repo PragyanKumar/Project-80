@@ -1,0 +1,22 @@
+input{
+    margin: 10px;
+}
+#SendIt{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#sort_button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: none;
+}
+#no_comma_display{
+  border: 1px solid salmon;
+  background-color: chartreuse;
+  padding: 10px;
+  }
+#display_name{
+        border: 1px solid rgb(41, 32, 173);
+        background-color: rgba(57, 243, 218, 0.767);
+        padding: 10px;
+        }

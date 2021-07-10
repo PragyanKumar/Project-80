@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>
+            The party guest 
+        </title>
+        <link rel="stylesheet" type="text/css" href="stylus.css">
+        <script src="boi.js">
+        </script> 
+    </head>
+    <body>
+        <center>
+            <h3 style="margin-top: 20px; margin-bottom: 20px;">
+                Guests at my friend's party
+            </h3>
+            <div>
+                <span>1</span>
+                <input type="text" placeholder="Name of guest" id="Friend1">
+                <br>
+                <span>2</span>
+                <input type="text" placeholder="Name of guest" id="Friend2">
+                <br>
+                <span>3</span>
+                <input type="text" placeholder="Name of guest" id="Friend3">
+                <br>
+                <span>4</span>
+                <input type="text" placeholder="Name of guest" id="Friend4">
+                <br>
+                <span>5</span>
+                <input type="text" placeholder="Name of guest" id="Friend5">
+                <br>
+                <span>6</span>
+                <input type="text" placeholder="Name of guest" id="Friend6">
+                <br>
+            </div>
+            <button onclick="submit()" id="SendIt">
+                Submit
+            </button>
+            <div id="no_comma_display"></div>
+            <hr>
+            <div id="display_name"></div>
+            <button onclick="sorting()" id="sort_button">
+                sort
+            </button>
+            <button onclick="update()" id="update_button">
+                update
+            </button>
+        </center>
+    </body>
+</html>
